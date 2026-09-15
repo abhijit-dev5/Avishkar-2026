@@ -119,11 +119,7 @@ export function Login() {
                 <p className="text-sm font-semibold text-neutral-800">Citizen</p>
                 <p className="text-xs text-neutral-500">rahul@example.com</p>
               </button>
-              <button onClick={() => quickLogin('admin@ers.gov', 'admin123')}
-                className="p-2.5 rounded-lg bg-white border border-neutral-200 hover:border-primary-300 hover:bg-primary-50 text-left transition">
-                <p className="text-sm font-semibold text-neutral-800">Admin</p>
-                <p className="text-xs text-neutral-500">admin@ers.gov</p>
-              </button>
+             
             </div>
           </div>
         </div>
